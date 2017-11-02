@@ -1,0 +1,14 @@
+.footer-bottom {
+    background-color: rgb(23, 24, 23);
+    padding: 1em 0 1em 0;
+    color: #fff;
+}
+
+.footer-bottom ul li {
+    list-style: none;
+    list-style-image: initial;
+    list-style-position: initial;
+    list-style-type: none;
+    float: left;
+    margin: 4px 4px 4px 4px;
+}

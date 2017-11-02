@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+/* html and body */
+body {
+color: #494949;
+background: url("./assets/background.jpg") repeat;
+font: 14px/22px 'Open Sans', Arial, Helvetica, sans-serif;
+position: relative;
+}
+*{
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+  display: block;
+}
+
+/* All headings color are same*/
+#testimonial-carousel,lead,h1, h2, h3, h4, h5, h6 {
+  color: #393332;
+  font-family: 'Abel', sans-serif;
+  font-weight: bolder ;
+  letter-spacing: 1px;
+}
+h1 {
+	font-size: 34px;/* font size based on golden ratio base font is 21px */
+	margin-bottom: 10px;
+	line-height: 38px;
+	margin-top: 0px;
+}
+h2 {
+	font-size: 26px;/* font size based on golden ratio base font is 21px */
+	margin-bottom: 20px;
+	line-height: 30px;
+	margin-top: 0px;
+}
+h3 {
+	font-size: 21px;/* font size based on golden ratio base font is 21px */
+	margin-bottom: 10px;
+	line-height: 34px;
+	margin-top: 0px;
+}
+p {
+	font-size: 18px;
+	color: #696362;
+	line-height:1.5em;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+a {
+	color: #393332;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #ab4f42;
+}
+ul {
+	margin-bottom: 30px;
+}
+ul li {
+	color: #696362;
+}
+
+hr {
+	border-color: #cdcdcd;
+}
+
+.clearfix:before, clearfix:after {
+content: " ";
+display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clear {
+  display: block;
+  clear: both;
+  content: "";
+  margin-bottom: 3em;
+}

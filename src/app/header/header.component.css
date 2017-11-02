@@ -1,0 +1,35 @@
+/* Header */
+.navbar-fixed-top {
+  padding: 10px !important;
+}
+
+#head-top {
+  padding:24px 10px;
+  background-color: #252e30;
+  backface-visibility: hidden;
+
+  transition: padding 0.5s ease;
+}
+
+#head-top  ul li a{
+  color:#0a0a0a;
+  transition: color 0.5s ease;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#head-top  ul li a:hover {
+  color:#a69443;
+  background-color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#head-top  .navbar-brand {
+  padding: 15px 15px 15px 0;
+}
+
+#head-top .nav .open>a, #head-top .nav .open>a:hover, #head-top  .nav .open>a:focus {
+background-color: transparent;
+border-color: transparent;
+}
