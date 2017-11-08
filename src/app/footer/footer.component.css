@@ -12,3 +12,62 @@
     float: left;
     margin: 4px 4px 4px 4px;
 }
+
+.footer-box {
+  float: left;
+  width: 100%;
+}
+
+.footer-box address ul {
+  padding: 0;
+  margin: 12px 0 0 0;
+  list-style: none;
+  float: left;
+}
+.footer-box address ul li {
+  padding: 0 0 6px 0;
+  overflow: hidden;
+  font:400 14px 'Open Sans',sans-serif;
+  color: #ccc;
+}
+
+.footer-box address ul li .fa{
+  padding: 0 15px 0 0;
+  float: left;
+ line-height: 20px;
+}
+
+.connect ul li {
+  display: flex;
+  height: 30px;
+  list-style-type: none;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.connect ul li a{
+  display: table-row;
+  height: 30px;
+  list-style-type: none;
+  vertical-align: middle;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+/*
+  Responsive css
+
+  */
+   /* //Extra small devices (portrait phones, less than 576px) */
+   @media (max-width: 575px) {  }
+
+   /* // Small devices (landscape phones, 576px and up) */
+   @media (min-width: 576px) and (max-width: 767px) { }
+
+   /* // Medium devices (tablets, 768px and up) */
+   @media (min-width: 768px) and (max-width: 991px) { }
+
+   /* // Large devices (desktops, 992px and up) */
+   @media (min-width: 992px) and (max-width: 1199px) {  }
+
+   /* // Extra large devices (large desktops, 1200px and up) */
+   @media (min-width: 1200px) { }
