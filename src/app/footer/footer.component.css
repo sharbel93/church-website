@@ -50,8 +50,7 @@
   height: 30px;
   list-style-type: none;
   vertical-align: middle;
-  border: solid 1px black;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 /*
   Responsive css

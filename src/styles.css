@@ -64,7 +64,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #ab4f42;
+  color: #ab4f42;
 }
 ul {
 	margin-bottom: 30px;

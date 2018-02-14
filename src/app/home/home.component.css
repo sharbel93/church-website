@@ -1,5 +1,20 @@
 /* header */
 
+.image-header{
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+h1 {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  top:100px;
+}
+
 
 
   .carousel-item {
