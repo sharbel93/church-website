@@ -481,6 +481,9 @@ a.more-link {
       background-position: center;
       -webkit-background-size: cover;
     }
+    .card-img {
+      height: 400px;
+    }
    }
 
   /* // Small devices (landscape phones, 576px and up) */
